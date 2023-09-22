@@ -1,0 +1,15 @@
+
+public class Datatypes {
+
+	public static void main(String[] args) {
+	int a=19;
+	double d=20.98;
+	char ch ='H';
+	boolean b=true;
+	
+	String s="Sneha";
+	
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package JavaBasics_1;
+
+public class Operators {
+
+	public static void main(String[] args) {
+		int a=23;
+		int b=22;
+		//Arithmatic operators> +,-,*,%,/
+		System.out.println("Sum of a & b is":a+b);
+		
+
+	}
+
+}

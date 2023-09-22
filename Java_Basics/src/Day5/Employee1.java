@@ -1,0 +1,45 @@
+package Day5;
+
+public class Employee1 {
+	int eid;
+	String ename;
+	double  salary;
+	int deptno;
+	String job;
+	
+	
+	void display()//method can return some value(method is a piece of code in java)
+	
+	{
+		System.out.println(eid);//it is an inbuilt method
+		System.out.println(ename);
+		System.out.println(salary);
+		System.out.println(deptno);
+		System.out.println(job);
+	}
+	public static void main(String[] args) {
+		Employee emp1=new Employee();//creating object for employee class
+		emp1.eid=101;
+		emp1.ename="Sneha";
+		emp1.sal=45000.00;
+		emp1.job="JavaDeveloper";
+		emp1.display();
+	
+
+	Employee emp2=new  Employee();
+	emp2.eid=102;
+	emp2.ename="Sneh";
+	emp2.sal=4500.00;
+	emp2.job="Developer";
+	emp2.display();
+	}
+}
+	
+
+		
+		
+		
+		
+		
+	
+

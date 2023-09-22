@@ -1,0 +1,18 @@
+package JavaBasics_1;
+
+public class Operators {
+
+	public static void main(String[] args) {
+		int a=23;
+		int b=22;
+	
+			//Arithmatic operators> +,-,*,%,/
+		System.out.println("Sum of a and b is:"+(a+b));
+		System.out.println("Sum of a and b is:"+(b-a));
+		System.out.println("Sum of a and b is:"+(a*b));
+		System.out.println("Sum of a and b is:"+(a/b));
+		System.out.println("Sum of a and b is:"+(a%b));
+
+	}
+
+}

@@ -1,0 +1,50 @@
+package Day5;
+
+public class Employee {
+int eid;
+String ename;
+double sal;
+int dept;
+String job;
+
+
+
+void display()
+{
+	System.out.println(eid);
+	System.out.println(ename);
+
+	System.out.println(sal);
+
+	System.out.println(dept);
+
+	System.out.println(job);
+
+
+}
+public static void main(String[] args)
+{
+	 Employee emp1=new Employee();//creating object
+	 emp1.eid=101;
+	 emp1.ename="Sneha";
+	 emp1.sal=23000.00;
+	 emp1.dept=12;
+	 emp1.job="C.E.O";
+	 emp1.display();
+	 
+	 
+	 
+	 Employee emp2=new Employee();//creating object
+	 emp2.eid=102;
+	 emp2.ename="neha";
+	 emp2.sal=2300.00;
+	 emp2.dept=2;
+	 emp2.job="C.E.O";
+	 emp2.display();
+	
+	 
+	 
+	 
+	 
+}
+}

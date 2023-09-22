@@ -1,0 +1,13 @@
+package Day3;
+
+public class StringMethod {
+
+	public static void main(String[] args) {
+String S="Welcome";
+String S1="To Company";
+System.out.println(S.length());
+System.out.println(S.concat(S1));
+	}
+	
+
+}

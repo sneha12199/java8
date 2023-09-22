@@ -1,0 +1,5 @@
+package Package.com.defaultMethod;
+
+public interface Myclass {
+
+}

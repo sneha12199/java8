@@ -1,0 +1,17 @@
+package Day3;
+
+public class StringMethod {
+
+	public static void main(String[] args) {
+String S="Welcome";
+String S1="To Company";
+System.out.println(S.length());//length of a string
+System.out.println(S.concat(S1));//Concat of  2 string
+S="   welcome       ";
+System.out.println(S);
+System.out.println(S.trim());//it removes the spaces of left and right side
+
+	}
+	
+
+}

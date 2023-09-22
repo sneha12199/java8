@@ -1,0 +1,25 @@
+package JavaBasics_1;
+
+public class Operators {
+
+	public static void main(String[] args) {
+		int a=23;
+		int b=22;
+	
+			//Arithmetic operators> +,-,*,%,/
+		System.out.println("Sum of a and b is:"+(a+b));
+		System.out.println("Sum of a and b is:"+(b-a));
+		System.out.println("Sum of a and b is:"+(a*b));
+		System.out.println("Sum of a and b is:"+(a/b));
+		System.out.println("Sum of a and b is:"+(a%b));
+//Relational operators always returns boolean value
+		System.out.println(a==b);
+		System.out.println(a>b);
+		System.out.println(a<b);
+		System.out.println(a>=b);
+		System.out.println(a<=b);
+		System.out.println(a!=b);
+		
+	}
+
+}
